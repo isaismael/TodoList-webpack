@@ -5,7 +5,7 @@ import { Todo, TodoList } from './classes'
 
 
 
-const todoList = new TodoList();
+export const todoList = new TodoList();
 
 const tarea = new Todo('Aprender JS!!!');
 todoList.nuevoTodo( tarea );
